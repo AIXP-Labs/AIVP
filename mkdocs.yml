@@ -1,0 +1,78 @@
+site_name: AIVP — AI Value Protocol
+site_url: https://aivp.dev
+site_description: An open protocol defining how AI agents create enforceable contracts, settle payments, and build commercial trust.
+repo_url: https://github.com/AIXP-Labs/AIVP
+repo_name: AIVP
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Specification:
+    - Overview: specification.md
+    - Full Specification (EN): specification/AIVP_Protocol.md
+    - 完整规范 (中文): specification/AIVP_Protocol_cn.md
+  - Guides:
+    - Getting Started: guides/getting-started.md
+  - Topics:
+    - What is AIVP?: topics/what-is-aivp.md
+  - Reference:
+    - Contract Schema: reference/contract-schema.md
+    - Glossary: reference/glossary.md
+  - ADRs:
+    - ADR-001 Settlement Channel Choice: adrs/adr-001-settlement-layer-choice.md
+    - ADR-002 USD Denomination: adrs/adr-002-usd-denomination.md
+    - ADR-003 Relationship with AIBP: adrs/adr-003-relationship-with-aibp.md
+    - ADR-004 Axiom 0 Independence: adrs/adr-004-axiom-0-independence.md
+    - ADR-005 Email as Transport: adrs/adr-005-email-as-transport.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AIXP-Labs
