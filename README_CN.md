@@ -142,6 +142,10 @@ AIXP Labs 开发和维护以下核心项目：
 
 AIVP 是一个开放协议。欢迎贡献、反馈和讨论。
 
+## ⚠️ 免责声明
+
+本协议规范及参考实现仅供**研究和教育用途**。**实验性**软件，不适用于生产环境。使用风险由用户自行承担。作者对因使用本软件造成的任何损害不承担责任。完整条款见 [LICENSE](LICENSE)（Apache 2.0）。
+
 ## 许可证
 
 [Apache License 2.0](LICENSE) - Copyright 2026 AIXP Labs AIXP.dev | AIVP.dev

@@ -144,6 +144,10 @@ AIXP Labs develops and maintains the following core projects:
 
 AIVP is an open protocol. Contributions, feedback, and discussion are welcome.
 
+## ⚠️ Disclaimer
+
+This protocol specification and the reference implementations are provided for **research and educational purposes only**. They are **experimental** and not intended for production use. Use at your own risk. The authors assume no liability for any damages arising from use of this software. See [LICENSE](LICENSE) for full terms (Apache 2.0).
+
 ## License
 
 [Apache License 2.0](LICENSE) - Copyright 2026 AIXP Labs AIXP.dev | AIVP.dev
